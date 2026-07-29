@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<CustomToolDefList varName="customtooldeflist">
+  <CustomToolDef>
+    <Definition>
+      <Name>AI Generate Changelist Description</Name>
+      <Command>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Command>
+      <Arguments>-NoProfile -ExecutionPolicy Bypass -File "C:\Tools\p4v-ai-description\win\p4-ai-description.ps1" %C</Arguments>
+      <Shortcut></Shortcut>
+    </Definition>
+    <AddToContext>true</AddToContext>
+  </CustomToolDef>
+</CustomToolDefList>

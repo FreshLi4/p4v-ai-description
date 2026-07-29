@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<CustomToolDefList varName="customtooldeflist">
+  <CustomToolDef>
+    <Definition>
+      <Name>AI Generate Changelist Description</Name>
+      <Command>/Users/taobe/.local/bin/p4-ai-description</Command>
+      <Arguments>%C</Arguments>
+      <Shortcut></Shortcut>
+    </Definition>
+    <AddToContext>true</AddToContext>
+  </CustomToolDef>
+</CustomToolDefList>
